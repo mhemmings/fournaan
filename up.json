@@ -1,0 +1,17 @@
+{
+  "name": "fournaan",
+  "profile": "default",
+  "regions": [
+    "eu-west-2"
+  ],
+  "lambda": {
+    "memory": 2048,
+    "warm": true,
+    "warm_count": 2
+  },
+  "stages": {
+    "production": {
+      "domain": "fournaan.com"
+    }
+  }
+}
